@@ -1,0 +1,51 @@
+
+.mainImg {
+  width: 350px;
+  max-height: 75%;
+  margin-left: 80px;
+  position: relative;
+  animation: up-and-down 3s linear infinite;
+}
+
+@keyframes up-and-down {
+
+  0%,
+  100% {
+    top: 0;
+  }
+
+  50% {
+    top: -30px;
+  }
+}
+
+.mainTitle {
+  color: #08827a;
+  font-weight: bold;
+  position: relative;
+}
+
+.disc {
+  color: #777;
+  font-size: 18px;
+}
+
+.teamImg {
+  transition: 0.3s;
+  width: 170px;
+  height: 220px;
+  cursor: pointer;
+}
+
+.teamImg:hover {
+  transform: translateY(-3px);
+}
+
+.mediaIcon {
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.mediaIcon:hover {
+  color: #088178 !important;
+}
