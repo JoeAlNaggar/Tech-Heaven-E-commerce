@@ -38,8 +38,8 @@ Tech Heaven is a comprehensive e-commerce web application built with React that 
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
-   cd PhoneStore_ITI_Final_Project-main
+   git clone https://github.com/JoeAlNaggar/Tech-Heaven-E-commerce-
+   cd Tech-Heaven-E-commerce-
    ```
 
 2. **Install dependencies**
